@@ -20,7 +20,7 @@ import {
 import { useHistory } from 'react-router-dom';
 import { setInterval } from 'timers';
 
-import { AlarmTruckHornCalledOpen } from '@assets/sounds';
+// import { AlarmTruckHornCalledOpen } from '@assets/sounds';
 import {
   HeaderNavigationPrivate,
   MenuSideBarPrivate,

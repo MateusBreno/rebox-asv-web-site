@@ -14,7 +14,7 @@ const LinkMain: React.FC<IProps> = ({
   return (
     <Container justifyContent={justifyContent}>
       <Text to={route} target={target}>
-        {children}
+        {/* {children} */}
       </Text>
     </Container>
   );

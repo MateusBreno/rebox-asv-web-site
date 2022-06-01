@@ -10,7 +10,7 @@ interface IProps {
   isPaused?: boolean;
 }
 
-const LottieDots: React.FC<IProps> = ({ children, isStopped, isPaused }) => {
+const LottieDots: React.FC<IProps> = ({ isStopped, isPaused }) => {
   return (
     <Lottie
       options={{
@@ -25,9 +25,9 @@ const LottieDots: React.FC<IProps> = ({ children, isStopped, isPaused }) => {
       width={250}
       isStopped={isStopped}
       isPaused={isPaused}
-    >
-      {children}
-    </Lottie>
+    />
+    //   {children}
+    // </Lottie>
   );
 };
 

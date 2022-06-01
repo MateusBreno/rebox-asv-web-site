@@ -60,7 +60,9 @@ const AppThemeProvider: React.FC = ({ children }) => {
 
   return (
     <AppThemeContext.Provider value={value}>
-      <ThemeProvider theme={themes[currentTheme]}>{children}</ThemeProvider>
+      <ThemeProvider theme={themes[currentTheme]}>
+        {/* {children} */}
+      </ThemeProvider>
     </AppThemeContext.Provider>
   );
 };

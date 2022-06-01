@@ -75,7 +75,7 @@ const Called: React.FC = () => {
             </ButtonOutline>
           </ButtonsOption>
           <Estimates>
-            <CardSimpleEstimate
+            {/* <CardSimpleEstimate
               icon={FaRoute}
               iconColor={ConfigStyles.rebox.colors.greenEmerald.main}
               iconSize={28}
@@ -83,8 +83,8 @@ const Called: React.FC = () => {
               label={`Total de acionamentos`}
               value={formatText.numberSeparatedByThousand(totalCalled)}
               linkName={`Listar acionamentos`}
-              route={ConfigRoutes.rebox.privates.called.next.drives.path}
-            />
+              // route={ConfigRoutes.rebox.privates.called.next.drives.path}
+            /> */}
           </Estimates>
         </Content>
       </ContainerGroup>

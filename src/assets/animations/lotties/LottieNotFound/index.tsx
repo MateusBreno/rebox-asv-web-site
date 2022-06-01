@@ -11,7 +11,7 @@ interface IProps {
 }
 
 const LottieNotFound: React.FC<IProps> = ({
-  children,
+  // children,
   isStopped,
   isPaused,
 }) => {
@@ -29,9 +29,9 @@ const LottieNotFound: React.FC<IProps> = ({
       width={320}
       isStopped={isStopped}
       isPaused={isPaused}
-    >
-      {children}
-    </Lottie>
+    />
+    //   {children}
+    // </Lottie>
   );
 };
 
